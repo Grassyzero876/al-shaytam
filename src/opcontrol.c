@@ -9,6 +9,11 @@
 
 #include "main.h"
 
+#define RIGHTMOTOR 2
+#define LEFTMOTOR 3
+
+int rightMotorPower = 0;
+int leftMotorPower = 0;
 /*
  * Runs the user operator control code. This function will be started in its own task with the
  * default priority and stack size whenever the robot is enabled via the Field Management System
@@ -28,7 +33,13 @@
  */
 void operatorControl() {
 	while (1) {
-		printf("Hello PROS User!\n");
 		delay(20);
+
+		rightMotorPower = joystickGetAnalog(1, 2);
+		leftMotorPower = joystickGetAnalog(1, 3);
+
+		motorSet(RIGHTMOTOR, rightMotorPower);
+		motorSet(LEFTMOTOR, -leftMotorPower);
+
 	}
 }
