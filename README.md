@@ -15,10 +15,21 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Built With
 
-## Contributing
+* [PROS V5](https://pros.cs.purdue.edu/) 
+* [CodeAnywhere](https://codeanywhere.com)
+* [Atom](https://atom.io/)
 
 ## Authors
 
+ * [Lucca Tavares](https://github.com/OverlordOfMateria)
+ * [Adam Rydzinski](https://github.com/GamingHamster)
+ * [Josh Murphy](https://github.com/Grassyzero876)
+ 
+## Contributing
+
 ## License
+
+For those interested, here is our license:
+[MIT Licence](https://github.com/OverlordOfMateria/al-shaytam/blob/master/LICENSE)
 
 ## Acknowledgements
